@@ -243,5 +243,45 @@ nav ul li a {
     box-sizing: border-box;
 }
 
+.contact-form textarea {
+    resize: none;
+    height: 110px;
+}
 
+.contact-form button {
+    background-color: #6ea4ca;
+    border: none;
+    color: #fff;
+    padding: 8px 40px;
+    float: right;
+    font-size: 1em;
+}
+
+input::placeholder {
+    color: #597db5;
+}
 /* end: contact us styles*/
+
+/* start: footer styles */
+footer {
+    background-color: #0c3c60;
+    padding: 75px 10px 60px;
+    color: #fff;
+}
+
+footer .flex {
+    max-width: 900px;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+/* end: footer styles */
